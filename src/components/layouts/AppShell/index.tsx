@@ -7,7 +7,7 @@ type AppShellProps = {
 };
 
 const AppShell = (props: AppShellProps) => {
-  const disableNavbar = ['/auth/login', '/auth/register'];
+  const disableNavbar = ['/auth/login', '/auth/register',"/404"];
   const { children } = props;
   const { pathname } = useRouter();
   return (
